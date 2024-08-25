@@ -26,7 +26,7 @@ function App() {
       const parsedJson = JSON.parse(jsonInput);
       console.log('Parsed JSON:', parsedJson);
 
-      const res = await axios.post('https://bajaj-finserv-backend.vercel.app/bfhl', parsedJson, {
+      const res = await axios.post('https://bajaj-finserv-backend-master.vercel.app/bfhl', parsedJson, {
         headers: { 'Content-Type': 'application/json' },
       });
       console.log('API Response:', res.data);
@@ -77,7 +77,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>21BCE9738 - KELAVATH BALAJI</h1> 
+      <h1>21BCE9738 - KELAVATH BALAJI Naik</h1> 
 
       <div className="input-container">
         <label htmlFor="jsonInput">API Input</label>
